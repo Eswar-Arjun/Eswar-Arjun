@@ -1,0 +1,39 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+#f2
+{
+	padding-left:50px;
+	color:red;
+}
+#f3
+{
+	padding:10px;	
+}
+
+.h1
+{
+	margin-top:30px;
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+}
+p
+{
+	font-family:cursive;
+	padding:15px;
+}
+#f1
+{
+	border:5px solid black; 
+}
+#f4
+{
+	color:red;
+	padding:10px;
+	margin:10px;
+	font-size:25px;
+	
+}

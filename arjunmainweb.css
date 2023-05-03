@@ -1,0 +1,95 @@
+*
+{
+	padding: 0;
+	margin:0;
+}
+.heading h1
+{
+	
+	margin:10px;
+	padding:10px;
+	background:linear-gradient(10deg,#ff0000,#800000,red,#800000,orange,#ff0000);
+	background-size:130%;
+	letter-spacing:2px;
+	word-spacing:2px;
+	font-weight:600;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+	text-shadow: 1px 3px 0px #0000ff;
+}
+body
+{
+	background-image:url(https://telegaon.com/wp-content/uploads/2022/10/Are-Blockchain-Games-and-NFT-Gaming-Dead.jpg );
+	background- size:cover;
+	background-position:center;
+	color:white;
+	box-sizing:border-box;
+	font-family:sans-serif; 
+}
+.menu-bar
+{
+	text-align:center; 
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-type:none;
+	color:lightcyan;	
+}
+.menu-bar ul li 
+{	
+	width:120px;
+	margin:15px;
+	padding:15px;	
+}
+.menu-bar ul li a
+{	
+	font-size:20px;
+	text-decoration:none;
+	color:#006A4E;
+}
+.active, .menu-bar ul li:hover
+{
+	background:#E0FFFF;
+	border-radius:3px;
+}
+.menu-bar .fa
+{
+	margin-right:8px;
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:#ffffff;
+	margin-left:-15px;
+	margin-top:15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom:1px solid black;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+.menu-bar ul li.hover .sub-menu-1 ul li:last child
+{
+	border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:red;
+}
+
+

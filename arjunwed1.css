@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+body
+{
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9U3tS7atPoSJAwvfJG7Cm9rE8uRSSi6nhuIt6aXajyYENSQ2cDInq6KHD1Uaro-LtcjYk3tyqJZc&usqp=CAU&ec=48665701);
+}
+.heading h1
+{
+	margin:10px;
+	padding:10px;
+	background:linear-gradient(30deg,#ff0000,#800000,red,#800000,#ff00c4,#ff0000);
+	background-size:130%;
+	letter-spacing:2px;
+	word-spacing:2px;
+	font-weight:600;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
+.image
+{
+	margin:10px;
+	padding:30px;
+}
+.download a img:hover
+{
+	margin:10px;
+	padding:10px;
+	border:5px solid white;
+	color:green;
+}
+.image img
+{
+	
+	border:5px solid white;
+	float:right;
+}
+.fl{
+	display:flex;	
+	justify-content:space-around;
+	align-items:center;
+	padding:10px
+
+}
+p	
+{	
+	text-align:left;
+	color:white;
+	font-family:cursive;
+}
+.f2
+{
+	display:flex;
+	flex-direction:coloumn;
+	justify-content:space-between;
+	border:5px solid white;
+	
+}
+.code ul
+{
+	margin:35px;
+	padding:10px;
+	color:white;
+}
+.free img
+{	
+	margin:50px;
+	padding:0px;
+	height:px;
+	width:200px;
+}
+.head
+{
+	color:aqua;
+}
